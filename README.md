@@ -11,6 +11,9 @@ A production-grade REST API that simulates core "Ledgers" and "Global Payouts" i
 - Security: API Keys required (`X-API-Key`)
 - OpenAPI/Swagger Documentation
 
+## Database Relationship
+![DB-relationship](<Untitled (2).png>)
+
 ## Setup Instructions
 
 ### 1. Prerequisites
