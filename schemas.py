@@ -1,7 +1,7 @@
 from marshmallow import fields, Schema, validate
 
 class VirtualAccountCreateSchema(Schema):
-    initial_amount = fields.Decimal(required=False, load_default=0.00, validate=validate.Range(min=0))
+    initial_deposit = fields.Decimal(required=False, load_default=0.00, validate=validate.Range(min=0))
 
 class VirtualAccountResponseSchema(Schema):
     id = fields.String(dump_only=True)
